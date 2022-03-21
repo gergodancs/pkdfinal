@@ -3,8 +3,8 @@ import "./css/nav.css";
 import { useState } from "react";
 
 const NavBar = () => {
-  const [logo, setLogo] = useState("active");
-  const [pics, setPics] = useState("off");
+  const [logo, setLogo] = useState("off");
+  const [pics, setPics] = useState("");
 
   const clickHandlerOn = () => {
     setLogo("active");
