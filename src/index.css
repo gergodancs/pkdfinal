@@ -15,6 +15,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+html {
+  scroll-behavior: smooth;
+}
 .App {
   width: 100vw;
   height: auto;
@@ -31,5 +34,14 @@ h2 {
   margin-bottom: 80px;
 }
 .szak {
-  margin-bottom: 80px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 600px) {
+  .szak {
+    margin-bottom: 25px;
+  }
+}
+.kapcs {
+  margin-bottom: 25px;
 }

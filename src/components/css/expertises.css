@@ -42,7 +42,6 @@ p {
   display: flex;
   justify-content: center;
 
-  flex-wrap: wrap;
   align-items: center;
   column-gap: 5rem;
 }
@@ -66,7 +65,7 @@ p {
 }
 
 iframe {
-  height: 350px;
+  height: 380px;
   width: 450px;
   border-radius: 20px;
 }
@@ -86,7 +85,7 @@ iframe {
   width: 500px;
   display: flex;
   flex-direction: column;
-  row-gap: 2rem;
+  row-gap: 2.9rem;
 }
 footer {
   height: 70px;
@@ -127,6 +126,10 @@ h5 {
 .rolam {
   margin-bottom: 30px;
 }
+p {
+  letter-spacing: 0.1em;
+  font-size: 1.1rem;
+}
 @media screen and (max-width: 762px) {
   .about__container {
     width: 100%;
@@ -144,6 +147,7 @@ h5 {
   }
   .data__container {
     align-items: center;
+    row-gap: 1rem;
   }
   .exp__cards.map {
     margin-top: 25px;

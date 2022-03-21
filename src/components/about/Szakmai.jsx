@@ -5,9 +5,10 @@ const Szakmai = () => {
     <div className="exp__cards edu">
       <div>
         <p>
-          dr. Kovács Dániel Pál egyéni ügyvéd Diploma szerzés: 2007. Debreceni
-          Egyetem, Állam- és Jogtudományi Kar; Szakvizsga letétele: 2011. évben;
-          Biztosítási szakjogász képzés: 2017. ELTE – Jogi Továbbképző Intézet
+          Diplomámat 2007. évben szereztem meg, a Debreceni Egyetem, Állam- és
+          Jogtudományi Karán. Szakvizsgát 2011. évben tettem le; Biztosítási
+          szakjogász képzést 2017. ávben végeztem el a ELTE – Jogi Továbbképző
+          Intézetén;
         </p>
       </div>
       <div>

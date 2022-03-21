@@ -12,12 +12,17 @@
   margin-left: 10px;
   border-radius: 20px;
 }
+
+.nav__menu span {
+  display: none;
+}
 .nav__menu {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   column-gap: 2rem;
+  list-style-type: none;
 }
 a {
   text-decoration: none;
@@ -34,12 +39,42 @@ a {
     column-gap: 0.8rem;
   }
   .navBar {
-    height: 60px;
+    height: 140px;
+    background-color: transparent;
   }
   .logo {
-    height: 50px;
+    margin-left: 20px;
+    height: 100px;
   }
   h1 {
     text-align: center;
+  }
+  .nav__menu.active {
+    position: relative;
+    margin: 5px;
+
+    background-color: #181818;
+    flex-direction: column;
+    row-gap: 5px;
+    width: 140px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+
+    background: #111111;
+    box-shadow: 6px 6px 18px rgba(0, 0, 0, 0.85),
+      inset 8px 8px 20px rgba(0, 0, 0, 0.35),
+      inset -8px -8px 44px rgba(0, 0, 0, 0.85);
+    border-radius: 10px;
+  }
+  .nav__menu.off {
+    display: none;
+  }
+  .nav__menu span {
+    display: inline;
+    position: relative;
+  }
+  .logo.off {
+    display: none;
   }
 }

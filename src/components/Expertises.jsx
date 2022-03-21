@@ -9,7 +9,7 @@ import Polg from "./expertises/Polg";
 
 const Expertises = () => {
   return (
-    <div className="exp__container">
+    <div id="exp" className="exp__container">
       <Biztositas />
       <Ingtalan />
       <Adozas />

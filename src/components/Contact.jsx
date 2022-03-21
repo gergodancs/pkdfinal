@@ -4,7 +4,7 @@ import Map from "../contact/Map";
 
 const Contact = () => {
   return (
-    <div className="contact__container">
+    <div id="contact" className="contact__container">
       <Datas />
       <Map />
     </div>

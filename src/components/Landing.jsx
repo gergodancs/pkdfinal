@@ -4,7 +4,7 @@ import "./css/landing.css";
 
 const Landing = () => {
   return (
-    <div className="landing__container">
+    <div id="landing" className="landing__container">
       <NavBar />
       <div className="landing">
         <img className="dani" src={require("./pics/danijo.png")} alt="dani" />
