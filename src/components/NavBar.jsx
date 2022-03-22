@@ -3,27 +3,26 @@ import "./css/nav.css";
 import { useState } from "react";
 
 const NavBar = () => {
-  const [logo, setLogo] = useState("off");
-  const [pics, setPics] = useState("");
+  // const [logo, setLogo] = useState("off");
+  // const [pics, setPics] = useState("");
 
-  const clickHandlerOn = () => {
-    setLogo("active");
-    setPics("off");
-  };
-  const clickHandlerOff = () => {
-    setLogo("off");
-    setPics("");
-  };
+  // const clickHandlerOn = () => {
+  //   setLogo("active");
+  //   setPics("off");
+  // };
+  // const clickHandlerOff = () => {
+  //   setLogo("off");
+  //   setPics("");
+  // };
 
   return (
     <nav className="navBar">
       <img
-        onClick={clickHandlerOn}
-        className={`logo ${pics}`}
+        className={`logo`}
         src={require("./pics/kdp__logo.png")}
         alt="logo"
       />
-      <ul className={`nav__menu ${logo}`}>
+      <ul className={`nav__menu`}>
         <li>
           <a href="#landing">Home</a>
         </li>
@@ -35,9 +34,6 @@ const NavBar = () => {
         </li>
         <li>
           <a href="#contact">Contact</a>
-        </li>
-        <li>
-          <span onClick={clickHandlerOff}>close</span>
         </li>
       </ul>
     </nav>

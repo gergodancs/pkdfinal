@@ -7,16 +7,16 @@ const Adozas = () => {
       <h3>Adóügyek</h3>
       <ul>
         <li>
-          adózási mód (KATA, KIVA, társasági adó) megválasztásával kapcsolatos
-          tanácsadás társaságoknak, valamint egyéni vállalkozóknak
-        </li>
-        <li>
           adóhatóság előtti képviselet ellenőrzések során és egyéb eljárásokban
           ideértve fellebbezést és a bírósági felülvizsgálatot is
         </li>
         <li>
           tanácsadás visszterhes vagyonszerzési, ajándékozási és öröklési
           illetékkel kapcsolatban
+        </li>
+        <li>
+          adózási mód (KATA, KIVA, társasági adó) megválasztásával kapcsolatos
+          tanácsadás társaságoknak, valamint egyéni vállalkozóknak
         </li>
         <li>adóhatósági beadványok szerkesztése</li>
       </ul>

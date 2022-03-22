@@ -9,13 +9,16 @@ import Polg from "./expertises/Polg";
 
 const Expertises = () => {
   return (
-    <div id="exp" className="exp__container">
-      <Biztositas />
-      <Ingtalan />
-      <Adozas />
-      <Business />
-      <Csalad />
-      <Polg />
+    <div className="exp-cont">
+      <h2 className="szak">Szakterületeim</h2>
+      <div id="exp" className="exp__container">
+        <Biztositas />
+        <Adozas />
+        <Csalad />
+        <Ingtalan />
+        <Business />
+        <Polg />
+      </div>
     </div>
   );
 };

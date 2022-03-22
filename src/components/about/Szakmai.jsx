@@ -7,8 +7,8 @@ const Szakmai = () => {
         <p>
           Diplomámat 2007. évben szereztem meg, a Debreceni Egyetem, Állam- és
           Jogtudományi Karán. Szakvizsgát 2011. évben tettem le; Biztosítási
-          szakjogász képzést 2017. ávben végeztem el a ELTE – Jogi Továbbképző
-          Intézetén;
+          szakjogász képzést 2017. évben végeztem el a ELTE – Jogi Továbbképző
+          Intézetén.
         </p>
       </div>
       <div>
@@ -17,9 +17,9 @@ const Szakmai = () => {
           ahol családjoggal és klasszikus polgári jogi ügyekben szereztem
           elévülhetetlen gyakorlatot. Ezt követően egy vezető hazai biztosító
           társaságnál helyezkedtem el, közel tíz éven keresztül jogtanácsosként
-          alkalmazásban, majd ügyvédként megbízásban. Ennek során széleskörű
-          tapasztalatra tettem szert a biztosítási szerződéshez köthető
-          különféle jogkérdések megoldása során.
+          alkalmazásban, azt követően pedig ügyvédként megbízásban. Ennek során
+          széleskörű tapasztalatra tettem szert a biztosítási szerződéshez
+          köthető különféle jogkérdések megoldása során.
         </p>
       </div>
     </div>

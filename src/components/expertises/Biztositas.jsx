@@ -12,7 +12,10 @@ const Biztositas = () => {
             szolgáltatási igény érvényesítése, valamint egyéb szerződéssel
             kapcsolatos panaszok intézése
           </li>
-          <li>a gépjárműben keletkezett kár érvényesítése</li>
+          <li>
+            gépjárműben keletkezett kár érvényesítése, gépjármű közlekedéssel
+            összefüggő ügyekben tanácsadás, hatóság előtti képviselet
+          </li>
           <li>
             bármely károkozó magatartásból szerződéses viszonyban, valamint
             szerződésen kívül felmerült kárigények érvényesítése.
